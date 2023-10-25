@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-section {
+    background-image: url(images/developer.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-container {
+    /* border: 5px solid red; */
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+
+.text-container h2 {
+    font-weight: 100;
+    font-size: 40px;
+
+}
+
+.large-text {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.black-box {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin-bottom: 147px;
+}
+
+.black-box h2 {
+
+    font-weight: 300;
+    font-size: 62px;
+    text-align: center;
+}
+
+.black-box h2 span {
+
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    margin: 83px auto;
+    max-width: 1300px;
+}
+
+.card {
+    max-width: 355px;
+    height: 529px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 5px 5px rgba(1, 1, 1, 0.5);
+    transition: 0.45s;
+}
+
+.card-content {
+    margin-left: 19px;
+    margin-bottom: 67px;
+    margin-right: 9px;
+}
+
+.card-content h2 {
+    padding: 17px 0px;
+    font-weight: 500;
+}
+
+.image-content img {
+    width: 100%;
+}
+
+/* Botttom Section */
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.contact {
+    background-color: #515603;
+    /* Width: 720px; */
+    Height: 430px;
+    Top: 1695px;
+    Left: 720px;
+    max-width: 50%;
+    padding: 76px 221px;
+}
+
+.about {
+    /* Width: 720px; */
+    Height: 430px;
+    Top: 195px;
+    Left: 720px;
+    background-color: #722300;
+    max-width: 50%;
+    padding: 76px 221px;
+}
+
+.contact h2 {
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.email {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+
+.about h2 {
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.second-para {
+    padding-top: 15px;
+}
+
+footer {
+    Height: 138px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+}
